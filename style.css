@@ -56,6 +56,11 @@ form .losspaper label {
     display: none;
 }
 
+div #result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer {
     background: black;
     color: white;
