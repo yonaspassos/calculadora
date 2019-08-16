@@ -57,6 +57,7 @@ form .losspaper label {
 }
 
 div #result {
+    margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
 }
