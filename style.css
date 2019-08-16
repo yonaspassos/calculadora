@@ -1,0 +1,72 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    margin-top: 20px;
+}
+
+header h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+form span {
+    display: block;
+}
+
+form .losspaper span {
+    margin: 10px;
+}
+
+form .losspaper label {
+    display: inline;
+}
+
+.button_cal {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background: black;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 90px;
+    line-height: 18px;
+    display: block;
+}
+
+footer div {
+    padding: 0;
+    line-height: 18px;
+}

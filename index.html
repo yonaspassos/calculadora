@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de Papel de Parede</title>
+    <link rel="stylesheet" href="reset.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png"/>
+            <h1>Calculadora de Papel de Parede</h1>
+            <section>
+                <form>
+                    <label for="width_wall">Qual a largura da parede?</label>
+                    <input type="number" step=".01" name="width_wall" id="width_wall">
+                    <label for="width_paper">Qual a largura do papel de parede?</label>
+                    <input type="number" step=".01" name="width_paper" id="width_paper">
+                    <label for="height_wall">Qual a altura da parede?</label>
+                    <input type="number" step=".01" name="height_wall" id="height_wall">
+                    <div class="losspaper">
+                        <span>Este papel de parede possui perda?</span>
+                        <input type="radio" id="sim" name="has_loss" value="sim" onclick="show_loss()">
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao" name="has_loss" value="nao" onclick="hide_loss()">
+                        <label for="nao">Não</label>
+                    </div>
+                    <div id="loss" class="hide">
+                        <label for="loss_paper">Qual é a perda do papel de parede?</label>
+                        <input type="number" step=".01" name="loss_paper" id="loss_paper">
+                    </div>    
+                    <div>
+                    <input class="button_cal" type="button" value="Calcular" onclick="cauculus()">
+                    </div>
+                    <div id="result">
+                        <span id="result_end"></span>
+                        <span id="result_papers"></span>
+                    </div>
+                </form>
+            </section>
+        </header>
+    </div>
+    <footer>
+        <div>
+            <p>By Yoná Silveira</p>
+            <p>yona.nantes22@gmail.com</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    
+</body>
+</html>
