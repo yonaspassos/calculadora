@@ -33,3 +33,12 @@ function hide_loss() {
 
     hide.classList.add('hide');
 };
+
+VMasker(document.querySelectorAll(".metro_mask")).maskMoney({
+    // Decimal precision -> "90"
+    precision: 2,
+    // Decimal separator -> ",90"
+    separator: '.',
+    // Money unit -> "12.345.678,90 R$"
+    suffixUnit: 'm'
+  });
