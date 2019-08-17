@@ -16,11 +16,11 @@
             <section>
                 <form>
                     <label for="width_wall">Qual a largura da parede?</label>
-                    <input type="text" class="metro_mask" name="width_wall" id="width_wall">
+                    <input type="text" inputmode="numeric" class="metro_mask" name="width_wall" id="width_wall">
                     <label for="width_paper">Qual a largura do papel de parede?</label>
-                    <input type="text" class="metro_mask" name="width_paper" id="width_paper">
+                    <input type="text" inputmode="numeric" class="metro_mask" name="width_paper" id="width_paper">
                     <label for="height_wall">Qual a altura da parede?</label>
-                    <input type="text" class="metro_mask" name="height_wall" id="height_wall">
+                    <input type="text" inputmode="numeric" class="metro_mask" name="height_wall" id="height_wall">
                     <div class="losspaper">
                         <span>Este papel de parede possui perda?</span>
                         <input type="radio" id="sim" name="has_loss" value="sim" onclick="show_loss()">
@@ -30,7 +30,7 @@
                     </div>
                     <div id="loss" class="hide">
                         <label for="loss_paper">Qual é a perda do papel de parede?</label>
-                        <input type="text" class="metro_mask" name="loss_paper" id="loss_paper">
+                        <input type="text" inputmode="numeric" class="metro_mask" name="loss_paper" id="loss_paper">
                     </div>    
                     <div>
                     <input class="button_cal" type="button" value="Calcular" onclick="cauculus()">
